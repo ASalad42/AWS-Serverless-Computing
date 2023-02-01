@@ -1,1 +1,4 @@
-# AWS-Serverless-Computing
+# AWS Serverless Computing
+
+
+## API Gateway, AWS Lambda & DynamoDB
