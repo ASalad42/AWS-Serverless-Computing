@@ -21,7 +21,7 @@ Useful:
 
 ### Core serverless services
 
-![image](https://user-images.githubusercontent.com/104793540/217070276-b7dd8617-d61c-4166-a640-015823046bf2.png)
+![image](https://user-images.githubusercontent.com/104793540/217071968-dba3fbde-f6f1-4e09-b489-ef74812f742c.png)
 
 ### Business logic with Lambda and API Gateway
 
