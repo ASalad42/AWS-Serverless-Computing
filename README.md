@@ -21,6 +21,8 @@ Useful:
 
 ### Core serverless services
 
+![image](https://user-images.githubusercontent.com/104793540/217070276-b7dd8617-d61c-4166-a640-015823046bf2.png)
+
 ### Business logic with Lambda and API Gateway
 
 ### Data Storage with DynamoDB
