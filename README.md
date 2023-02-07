@@ -62,7 +62,7 @@ API Keys:
 - Actions > create API keys (good for usage plans and with other developers)
 
 **Endpoint:**
-- Method: endpoint that can be hit with a request (Endpoint = resource (path which request is sent) + method (type of request)
+- Endpoint = resource (path which request is sent) + method (type of request)
 
 **cycle: flow of data in API**
 - method request: incoming requests have certain shape/data (has schema needed been met>)(**gatekeeper**)
@@ -71,8 +71,12 @@ API Keys:
 - method response: defines shape of response/data sent back to user 
 
 
+##### Compare yourself App
 
 
+Lambda (code on demand function)
+- supports Node.js and Express apps 
+- natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code
 
 
 ### Data Storage with DynamoDB
