@@ -46,7 +46,7 @@ For exmaple:
 - JSON is the most generally popular file format to use because, despite its name, it’s language-agnostic, as well as readable by both humans and machines. 
 
 
-#### Creating and API Gateway & AWS Lambda
+#### Creating an API Gateway & AWS Lambda
 Application > REST API > Action (run lambda code)
 
 - API Gateway > create REST API > new api > name first-api > create
@@ -54,8 +54,25 @@ Application > REST API > Action (run lambda code)
 - Actions > methods > GET (request) > mock. first end point created 
 - integration > body mapping > application/json 
 - Actions > deploy API > dev stage > https://t68wzxxbfd.execute-api.eu-west-1.amazonaws.com/dev/first-api-test
+- Bring resources live with deploy action
 
 ![image](https://user-images.githubusercontent.com/104793540/217248465-9469c680-fc35-47ec-b7e5-fb09c340a8ac.png)
+
+API Keys:
+- Actions > create API keys (good for usage plans and with other developers)
+
+**Endpoint:**
+- Method: endpoint that can be hit with a request (Endpoint = resource (path which request is sent) + method (type of request)
+
+**cycle: flow of data in API**
+- method request: incoming requests have certain shape/data (has schema needed been met>)(**gatekeeper**)
+- integration request: mapping incoming data to trigger endpoint (extract incoming data to pass onto action)
+- integration response: configures the response to be sent back
+- method response: defines shape of response/data sent back to user 
+
+
+
+
 
 
 ### Data Storage with DynamoDB
@@ -63,6 +80,10 @@ Application > REST API > Action (run lambda code)
 ### Authentication with Cognito 
 
 ### Content delivery & hosting with S3, Cloudfront, and Route53
+
+
+Aim:
+- web app (single page application) connected to backend (store and fetch data from db)
 
 
 
