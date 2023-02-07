@@ -31,14 +31,31 @@ A REST API (also known as RESTful API) is an application programming interface (
 - mediator between the users or clients and the resources or web services they want to get
 - Establishes the content required from the consumer (the call) and the content required by the producer (the response).
 
+For exmaple: 
+- clients send request to some API because they need some backend to do something for them i.e:
+  - execute some code
+  - store something in a database
+  - retrieve something from a database 
+
+
 #### REST
 - set of architectural constraints that API developers can implement in a variety of ways.
-- When a client request is made via a RESTful API, it transfers a **representation** of the state of the resource to the requester or endpoint.
+- When a **client request** is made via a RESTful API, it transfers a **representation** of the state of the resource to the requester or endpoint.
+- **REST stands for representational state transfer**
 - representation, is delivered in one of several formats via HTTP: JSON (Javascript Object Notation), HTML, XLT, Python, PHP, or plain text. 
 - JSON is the most generally popular file format to use because, despite its name, it’s language-agnostic, as well as readable by both humans and machines. 
 
 
 #### Creating and API Gateway & AWS Lambda
+Application > REST API > Action (run lambda code)
+
+- API Gateway > create REST API > new api > name first-api > create
+- Actions > resources > create (cant call yet so do methods next)
+- Actions > methods > GET (request) > mock. first end point created 
+- integration > body mapping > application/json 
+- Actions > deploy API > dev stage > https://t68wzxxbfd.execute-api.eu-west-1.amazonaws.com/dev/first-api-test
+
+![image](https://user-images.githubusercontent.com/104793540/217248465-9469c680-fc35-47ec-b7e5-fb09c340a8ac.png)
 
 
 ### Data Storage with DynamoDB
