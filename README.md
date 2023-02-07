@@ -65,7 +65,7 @@ API Keys:
 - Endpoint = resource (path which request is sent) + method (type of request)
 
 **cycle: flow of data in API**
-- method request: incoming requests have certain shape/data (has schema needed been met>)(**gatekeeper**)
+- method request: incoming requests have certain shape/data (has schema needed been met)(**gatekeeper**)
 - integration request: mapping incoming data to trigger endpoint (extract incoming data to pass onto action)
 - integration response: configures the response to be sent back
 - method response: defines shape of response/data sent back to user 
