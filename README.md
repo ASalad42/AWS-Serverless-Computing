@@ -18,6 +18,7 @@ Serverless benefits:
 Useful:
 
 - SPA single page application 
+- CORS Cross Origin Resource Sharing 
 
 ### Core serverless services
 
@@ -46,7 +47,7 @@ For exmaple:
 - JSON is the most generally popular file format to use because, despite its name, it’s language-agnostic, as well as readable by both humans and machines. 
 
 
-#### Creating an API Gateway & AWS Lambda
+#### Creating an API Gateway & AWS Lambda (on-demand computing)
 Application > REST API > Action (run lambda code)
 
 - API Gateway > create REST API > new api > name first-api > create
@@ -72,12 +73,28 @@ API Keys:
 
 
 ##### Compare yourself App
+- API > new path via resource > Enable API Gateway CORS
+- post request > serve data > post method > integration type: Lambda Function
 
 
 Lambda (code on demand function)
+- **event source** (s3 (file uploaded), cloudwatch (scheduled), api gateway (http request) > **Code** > **Result** (interact with other aws services > return resonse) 
 - supports Node.js and Express apps 
 - natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code
 
+Handler i.e index.handler:
+- looks for **index file** 
+- in that file look at **export objects** and find the handler **function** stored in the **handler property** (export handler)
+
+back to API:
+- find recently created lambda function and connect 
+- test
+
+![image](https://user-images.githubusercontent.com/104793540/217831089-c9cfb94f-1e7e-46a5-8882-e8000cf31ecb.png)
+
+Accessing the API from the web:
+- deploy api (check stages for snapshot)
+- 
 
 ### Data Storage with DynamoDB
 
