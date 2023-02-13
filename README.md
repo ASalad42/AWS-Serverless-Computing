@@ -94,7 +94,8 @@ back to API:
 
 Accessing the API from the web:
 - deploy api (check stages for snapshot)
-- 
+- (ctrl shift c for developer mode - check errors in console > fix CORS error to do with Access-Control-Allow-Origin
+- add in method reponse first under header mapping > then add value for header in integration response > deploy 
 
 ### Data Storage with DynamoDB
 
