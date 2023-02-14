@@ -97,7 +97,35 @@ Accessing the API from the web:
 - (ctrl shift c for developer mode - check errors in console > fix CORS error to do with Access-Control-Allow-Origin
 - add in method reponse first under header mapping > then add value for header in integration response > deploy 
 
+Accessing the API from the Web - The Right Way:
+
+
+
+Forwarding Requests with Proxy Integration:
+
+Accessing Lambda Logs:
+ 
+Mapping and Models:
+ 
+ 
+ 
+
+
+
+
 ### Data Storage with DynamoDB
+
+#### Using DynamoDB with Lambda
+
+#### Creating a Table in DynamoDB
+
+#### Accessing DynamoDB from Lambda
+
+#### Putting Items into a DynamoDB Table from Lambda
+
+#### Using API Gateway (Request) Data for Item Creation
+
+
 
 ### Authentication with Cognito 
 
