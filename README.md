@@ -132,8 +132,6 @@ Mapping and Models:
 
 #### Using API Gateway (Request) Data for Item Creation
 
-
-
 ### Authentication with Cognito 
 
 ### Content delivery & hosting with S3, Cloudfront, and Route53
@@ -235,8 +233,8 @@ JS Parallesim:
 
 Triggers:
 - API, s3, cognito, DynamoDB, cloudfront, Cloudwatch events, SNS
-- 
-#### API Gateway
+
+#### API Gateway in front of Lambda function
 Develop a REST API where you gain complete control over the request and response along with API management capabilities.
 
 - proxy mode 
@@ -245,6 +243,10 @@ Develop a REST API where you gain complete control over the request and response
 Proxy mode:
 - create REST api > edge optimised endpoint type
 - create proxy resource > choose chat lambda function 
+- test with get method > go back to lambda and see what has changed:
+
+![image](https://user-images.githubusercontent.com/104793540/219459529-d0de211a-db94-4cf6-b5c4-85bd589c4b17.png)
+
 
 #### Setup CORS (Cross-origin resource sharing)
 
