@@ -187,6 +187,7 @@ var object = {
 ```
 
 JQuery:
+
 jQuery is a JavaScript Library. jQuery greatly simplifies JavaScript programming.
 - $ is JQuery library 
 - http call with:
