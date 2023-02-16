@@ -160,12 +160,15 @@ Mapping and Models:
 
 Site bare bones:
 - CSS (look and feel of the site i.e font and styles)
-- JS (bootstrap js file, jquery popular libarary and recommened if ever running dynamic website, config.js store values custom to app such as api endpoints and userpool names, site.js ) 
+- JavaScript JS (bootstrap js file, jquery popular libarary and recommened if ever running dynamic website, config.js store values custom to app such as api endpoints and userpool names, site.js ) 
 - HTML (rendering site- brings in css and js)
 
 
-#### JavaScript syntax reminder
+#### JavaScript 
+JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. Made to run in the browser and the DOM (Document Object Model) can only be manipulated in a single thread.
 
+
+Syntax:
 - == equivalent values
 - === equal values of the same type
 - null - an object of type null (nothing)
@@ -183,15 +186,24 @@ var object = {
 
 ```
 
+JQuery:
+jQuery is a JavaScript Library. jQuery greatly simplifies JavaScript programming.
 - $ is JQuery library 
 - http call with:
 - $.get()
 - $.post()
 - class selector, ID selector, tag selector
 
+Useful ref:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 - https://api.jquery.com/
 - https://www.w3schools.com/jquery/
 - https://www.w3schools.com/js/default.asp
+
+JS Parallesim:
+- JS is single threaded (all my code runs on a single thread) but browsers and Node.js manage other threads like http calls for me. 
+- callbacks: define a function that gets called whenever value becomes available (anything that requries async call will take a callback in order to return value or error)
+
 
 ### Extras
 #### AWS Serverless + Express Apps
