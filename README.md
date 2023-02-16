@@ -233,7 +233,18 @@ JS Parallesim:
 - add source code to index.js
 - configure test event and run test > success
 
+Triggers:
+- API, s3, cognito, DynamoDB, cloudfront, Cloudwatch events, SNS
+- 
 #### API Gateway
+Develop a REST API where you gain complete control over the request and response along with API management capabilities.
+
+- proxy mode 
+- mapping mode
+
+Proxy mode:
+- create REST api > edge optimised endpoint type
+- create proxy resource > choose chat lambda function 
 
 #### Setup CORS (Cross-origin resource sharing)
 
