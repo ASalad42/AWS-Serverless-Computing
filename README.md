@@ -205,6 +205,17 @@ JS Parallesim:
 - JS is single threaded (all my code runs on a single thread) but browsers and Node.js manage other threads like http calls for me. 
 - callbacks: define a function that gets called whenever value becomes available (anything that requries async call will take a callback in order to return value or error)
 
+### Creating API
+
+#### Lambda
+
+#### API Gateway
+
+#### Setup CORS (Cross-origin resource sharing)
+
+
+
+
 
 ### Extras
 #### AWS Serverless + Express Apps
