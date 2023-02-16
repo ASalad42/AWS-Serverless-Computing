@@ -73,6 +73,11 @@ API Keys:
 
 
 ##### Compare yourself App
+
+Aim:
+- web app (single page application) connected to backend (store and fetch data from db)
+
+
 - API > new path via resource > Enable API Gateway CORS
 - post request > serve data > post method > integration type: Lambda Function
 
@@ -132,12 +137,20 @@ Mapping and Models:
 ### Content delivery & hosting with S3, Cloudfront, and Route53
 
 
-Aim:
-- web app (single page application) connected to backend (store and fetch data from db)
+## Serverless Chat App Project:
+
+![image](https://user-images.githubusercontent.com/104793540/219374111-17d71aa4-e05a-4374-be5e-718143536ffa.png)
+
+- user comes to site and loads static HTML, CSS, and JS
+- static part of page are HTML and dynamic parts are added by JS
+- JS retreieve dynamic data from API
+- JS writes data to the API
+- JS handles some aspects of navigation 
 
 
 
 
+### Extras
 #### AWS Serverless + Express Apps
 
 - https://aws.amazon.com/blogs/compute/going-serverless-migrating-an-express-application-to-amazon-api-gateway-and-aws-lambda/
