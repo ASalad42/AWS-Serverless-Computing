@@ -160,10 +160,38 @@ Mapping and Models:
 
 Site bare bones:
 - CSS (look and feel of the site i.e font and styles)
-- JS (bootstrap js file, jquery popular libarary, config.js store values custom to app such as api endpoints and userpool names, site.js ) 
+- JS (bootstrap js file, jquery popular libarary and recommened if ever running dynamic website, config.js store values custom to app such as api endpoints and userpool names, site.js ) 
 - HTML (rendering site- brings in css and js)
 
 
+#### JavaScript syntax reminder
+
+- == equivalent values
+- === equal values of the same type
+- null - an object of type null (nothing)
+- undefined - a value of type undefined (havent defined yet)
+
+```
+var object = {
+  p1:1,
+  p2:2,
+  'this is quoted':'hello, world'
+  };
+  
+  object.p1 is the same as object['p1'] 
+  i.e dot ref is same as array ref
+
+```
+
+- $ is JQuery library 
+- http call with:
+- $.get()
+- $.post()
+- class selector, ID selector, tag selector
+
+- https://api.jquery.com/
+- https://www.w3schools.com/jquery/
+- https://www.w3schools.com/js/default.asp
 
 ### Extras
 #### AWS Serverless + Express Apps
