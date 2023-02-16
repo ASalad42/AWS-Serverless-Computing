@@ -87,6 +87,8 @@ Lambda (code on demand function)
 - supports Node.js and Express apps 
 - natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code
 
+![image](https://user-images.githubusercontent.com/104793540/219447870-f0cdcfd6-4782-4d98-a0d2-e96aea548949.png)
+
 Handler i.e index.handler:
 - looks for **index file** 
 - in that file look at **export objects** and find the handler **function** stored in the **handler property** (export handler)
@@ -138,14 +140,33 @@ Mapping and Models:
 
 
 ## Serverless Chat App Project:
+Aim:
+- Creating a chat web app using AWS - Lambda, DynamoDB, API Gateway, S3, Cognito, CloudFront, and more.
+
 
 ![image](https://user-images.githubusercontent.com/104793540/219374111-17d71aa4-e05a-4374-be5e-718143536ffa.png)
+
 
 - user comes to site and loads static HTML, CSS, and JS
 - static part of page are HTML and dynamic parts are added by JS
 - JS retreieve dynamic data from API
 - JS writes data to the API
 - JS handles some aspects of navigation 
+
+Remember IAM between:
+- Lambda & s3
+- Lambda & DynamoDB
+- Lambda & Cognito
+
+IAM:
+- Policies (choose or create policy)
+- role (choose policy created + basic execution)
+
+![image](https://user-images.githubusercontent.com/104793540/219449521-56005e2d-7145-4dfc-aa37-4599be0472d5.png)
+![image](https://user-images.githubusercontent.com/104793540/219449935-75353d58-335d-46b4-932e-ead5c6708d2a.png)
+
+
+
 
 ### Static chat app with S3
 - upload site folder to s3 (ACL enabled as i want app public)
