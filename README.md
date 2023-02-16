@@ -229,6 +229,9 @@ JS Parallesim:
 ### Creating API
 
 #### Lambda
+- create function > correct env (node.js x12)+ existing execution role
+- add source code to index.js
+- configure test event and run test > success
 
 #### API Gateway
 
