@@ -147,6 +147,11 @@ Mapping and Models:
 - JS writes data to the API
 - JS handles some aspects of navigation 
 
+### Static chat app with S3
+- upload site folder to s3 (ACL enabled as i want app public)
+- check permissions > then property for static website hosting
+
+![image](https://user-images.githubusercontent.com/104793540/219378188-12aaabfd-99d2-409e-bafe-6b79772409c3.png)
 
 
 
