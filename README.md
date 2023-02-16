@@ -158,6 +158,11 @@ Mapping and Models:
 ![image](https://user-images.githubusercontent.com/104793540/219380053-8633177b-2658-430d-9f47-c9bcaae69378.png)
 ![image](https://user-images.githubusercontent.com/104793540/219380088-ce446e6a-141f-422e-87db-18e75d8f3c17.png)
 
+Site bare bones:
+- CSS (look and feel of the site i.e font and styles)
+- JS (bootstrap js file, jquery popular libarary, config.js store values custom to app such as api endpoints and userpool names, site.js ) 
+- HTML (rendering site- brings in css and js)
+
 
 
 ### Extras
