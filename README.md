@@ -153,6 +153,11 @@ Mapping and Models:
 
 ![image](https://user-images.githubusercontent.com/104793540/219378188-12aaabfd-99d2-409e-bafe-6b79772409c3.png)
 
+- Access policy definition > under permissions bucket policy 
+
+![image](https://user-images.githubusercontent.com/104793540/219380053-8633177b-2658-430d-9f47-c9bcaae69378.png)
+![image](https://user-images.githubusercontent.com/104793540/219380088-ce446e6a-141f-422e-87db-18e75d8f3c17.png)
+
 
 
 ### Extras
