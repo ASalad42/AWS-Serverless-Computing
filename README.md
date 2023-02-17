@@ -255,6 +255,11 @@ Proxy mode:
 
 ![image](https://user-images.githubusercontent.com/104793540/219684125-5b536eea-dd5e-49c0-87dd-3bd9695a66c9.png)
 
+### DynamoDB for chat app storage
+
+### Cognito for chat app identification
+
+### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
 
 ### Extras
