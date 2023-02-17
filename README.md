@@ -249,8 +249,8 @@ Proxy mode:
 
 
 #### Setup CORS (Cross-origin resource sharing)
-
-
+- api > on proxy select actions > enable cors (4xx,5xx)
+- deploy api
 
 
 
