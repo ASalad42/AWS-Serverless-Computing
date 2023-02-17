@@ -251,6 +251,9 @@ Proxy mode:
 #### Setup CORS (Cross-origin resource sharing)
 - api > on proxy select actions > enable cors (4xx,5xx)
 - deploy api
+- tighten down cors to my s3 bucket only
+
+![image](https://user-images.githubusercontent.com/104793540/219684125-5b536eea-dd5e-49c0-87dd-3bd9695a66c9.png)
 
 
 
