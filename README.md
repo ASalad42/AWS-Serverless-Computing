@@ -72,69 +72,6 @@ API Keys:
 - method response: defines shape of response/data sent back to user 
 
 
-##### Compare yourself App
-
-Aim:
-- web app (single page application) connected to backend (store and fetch data from db)
-
-
-- API > new path via resource > Enable API Gateway CORS
-- post request > serve data > post method > integration type: Lambda Function
-
-
-Lambda (code on demand function)
-- **event source** (s3 (file uploaded), cloudwatch (scheduled), api gateway (http request) > **Code** > **Result** (interact with other aws services > return resonse) 
-- supports Node.js and Express apps 
-- natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code
-
-![image](https://user-images.githubusercontent.com/104793540/219447870-f0cdcfd6-4782-4d98-a0d2-e96aea548949.png)
-
-Handler i.e index.handler:
-- looks for **index file** 
-- in that file look at **export objects** and find the handler **function** stored in the **handler property** (export handler)
-
-back to API:
-- find recently created lambda function and connect 
-- test
-
-![image](https://user-images.githubusercontent.com/104793540/217831089-c9cfb94f-1e7e-46a5-8882-e8000cf31ecb.png)
-
-Accessing the API from the web:
-- deploy api (check stages for snapshot)
-- (ctrl shift c for developer mode - check errors in console > fix CORS error to do with Access-Control-Allow-Origin
-- add in method reponse first under header mapping > then add value for header in integration response > deploy 
-
-Accessing the API from the Web - The Right Way:
-
-
-
-Forwarding Requests with Proxy Integration:
-
-Accessing Lambda Logs:
- 
-Mapping and Models:
- 
- 
- 
-
-
-
-
-### Data Storage with DynamoDB
-
-#### Using DynamoDB with Lambda
-
-#### Creating a Table in DynamoDB
-
-#### Accessing DynamoDB from Lambda
-
-#### Putting Items into a DynamoDB Table from Lambda
-
-#### Using API Gateway (Request) Data for Item Creation
-
-### Authentication with Cognito 
-
-### Content delivery & hosting with S3, Cloudfront, and Route53
 
 
 ## Serverless Chat App Project:
@@ -256,11 +193,85 @@ Proxy mode:
 ![image](https://user-images.githubusercontent.com/104793540/219684125-5b536eea-dd5e-49c0-87dd-3bd9695a66c9.png)
 
 ### DynamoDB for chat app storage
+DynamoDB is a fully managed, key-value, and document database that delivers single-digit-millisecond performance at any scale.
+
+- fast and flexible NoSQL database service for any scale
+- flexible data model and reliable performance make DynamoDB a great fit for mobile, web, gaming, advertising technology, Internet of Things, and other applications.
+
+key-value storage system:
+- tables (hash key - sort key - data)
+- types of attributes 
+
+![image](https://user-images.githubusercontent.com/104793540/219868223-9993cae7-09fe-4609-9260-fe786ef00ca2.png)
+
+
+
 
 ### Cognito for chat app identification
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
+
+
+## Compare yourself App
+
+Aim:
+- web app (single page application) connected to backend (store and fetch data from db)
+
+
+- API > new path via resource > Enable API Gateway CORS
+- post request > serve data > post method > integration type: Lambda Function
+
+
+Lambda (code on demand function)
+- **event source** (s3 (file uploaded), cloudwatch (scheduled), api gateway (http request) > **Code** > **Result** (interact with other aws services > return resonse) 
+- supports Node.js and Express apps 
+- natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code
+
+![image](https://user-images.githubusercontent.com/104793540/219447870-f0cdcfd6-4782-4d98-a0d2-e96aea548949.png)
+
+Handler i.e index.handler:
+- looks for **index file** 
+- in that file look at **export objects** and find the handler **function** stored in the **handler property** (export handler)
+
+back to API:
+- find recently created lambda function and connect 
+- test
+
+![image](https://user-images.githubusercontent.com/104793540/217831089-c9cfb94f-1e7e-46a5-8882-e8000cf31ecb.png)
+
+Accessing the API from the web:
+- deploy api (check stages for snapshot)
+- (ctrl shift c for developer mode - check errors in console > fix CORS error to do with Access-Control-Allow-Origin
+- add in method reponse first under header mapping > then add value for header in integration response > deploy 
+
+Accessing the API from the Web - The Right Way:
+
+
+
+Forwarding Requests with Proxy Integration:
+
+Accessing Lambda Logs:
+ 
+Mapping and Models:
+ 
+ 
+
+### Data Storage with DynamoDB
+
+#### Using DynamoDB with Lambda
+
+#### Creating a Table in DynamoDB
+
+#### Accessing DynamoDB from Lambda
+
+#### Putting Items into a DynamoDB Table from Lambda
+
+#### Using API Gateway (Request) Data for Item Creation
+
+### Authentication with Cognito 
+
+### Content delivery & hosting with S3, Cloudfront, and Route53
 
 ### Extras
 #### AWS Serverless + Express Apps
