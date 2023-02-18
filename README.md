@@ -250,9 +250,10 @@ Write new messages to DynamoDB:
 ![image](https://user-images.githubusercontent.com/104793540/219885000-f9ce4e9e-1ffc-4af3-918a-cd9871d34237.png)
 
 
+- update site.js & chat.html files in s3 and check chat app to see if it now writes messages 
 
 
-
+![image](https://user-images.githubusercontent.com/104793540/219885216-abe949ee-8974-4f61-a445-5b4b571975a2.png)
 
 
 ### Cognito for chat app identification
