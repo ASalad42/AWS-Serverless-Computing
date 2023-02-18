@@ -204,8 +204,18 @@ key-value storage system:
 
 ![image](https://user-images.githubusercontent.com/104793540/219868223-9993cae7-09fe-4609-9260-fe786ef00ca2.png)
 
+- retrieving items 
 
+![image](https://user-images.githubusercontent.com/104793540/219868373-05f85a91-d5d0-438c-b498-43cbe45d6077.png)
 
+- DynamoDB vs S3 (key-value store vs key-blob store)
+- consist reads with DDB
+
+Creating DynamoDB tables:
+- Table 1 conversations (id & list of people)
+- Table 2 messages (conversation, timestamp, sender & actual message) 
+
+![image](https://user-images.githubusercontent.com/104793540/219869247-45b2b937-a783-4dff-b12a-a658c27ea974.png)
 
 ### Cognito for chat app identification
 
