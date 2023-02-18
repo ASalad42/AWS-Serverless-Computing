@@ -216,13 +216,25 @@ key-value storage system:
 - DynamoDB vs S3 (key-value store vs key-blob store)
 - consist reads with DDB
 
-Creating DynamoDB tables:
+#### Creating DynamoDB tables
 - Table 1 conversations (id & list of people)
 - Table 2 messages (conversation, timestamp, sender & actual message) 
 
 ![image](https://user-images.githubusercontent.com/104793540/219869247-45b2b937-a783-4dff-b12a-a658c27ea974.png)
 ![image](https://user-images.githubusercontent.com/104793540/219869400-0ec6d67c-e826-45f0-87a0-21d1c025d096.png)
 ![image](https://user-images.githubusercontent.com/104793540/219869709-ac267926-2c35-422a-8829-a007149a0423.png)
+
+Read a conversation from DynammoDB:
+- id, participants, messages, sender, time, message itself 
+- add dynamo code to lambda and chek app 
+
+![image](https://user-images.githubusercontent.com/104793540/219879354-d40001e8-f99a-4430-a37e-d0827d42ff38.png)
+
+
+Read conversation list from DynamoDB:
+
+Write new messages to DynamoDB:
+
 
 
 ### Cognito for chat app identification
