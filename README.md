@@ -226,14 +226,32 @@ key-value storage system:
 
 Read a conversation from DynammoDB:
 - id, participants, messages, sender, time, message itself 
-- add dynamo code to lambda and chek app 
+- add dynamo code to lambda and chek app (v5)
 
 ![image](https://user-images.githubusercontent.com/104793540/219879354-d40001e8-f99a-4430-a37e-d0827d42ff38.png)
 
 
 Read conversation list from DynamoDB:
+- add dynamo code to lambda and chek app (v6)
+
+![image](https://user-images.githubusercontent.com/104793540/219884298-40e04391-16ce-4dbb-b54f-7bbe16c252c5.png)
+
 
 Write new messages to DynamoDB:
+- add handling for post commands
+- correct test for http method
+
+![image](https://user-images.githubusercontent.com/104793540/219884788-7fc653d2-4150-4510-9c74-5b4cc147cc18.png)
+
+- test with new message and check dynamodb 
+
+![image](https://user-images.githubusercontent.com/104793540/219884959-e942736d-ea2c-4049-867f-f04db2aa7dd7.png)
+![image](https://user-images.githubusercontent.com/104793540/219884982-919833ee-eb0e-4017-a77d-6a33d4192e93.png)
+![image](https://user-images.githubusercontent.com/104793540/219885000-f9ce4e9e-1ffc-4af3-918a-cd9871d34237.png)
+
+
+
+
 
 
 
