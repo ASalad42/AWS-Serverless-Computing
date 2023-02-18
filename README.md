@@ -93,14 +93,19 @@ Remember IAM between:
 - Lambda & DynamoDB
 - Lambda & Cognito
 
-IAM:
+IAM S3:
 - Policies (choose or create policy)
 - role (choose policy created + basic execution)
 
 ![image](https://user-images.githubusercontent.com/104793540/219449521-56005e2d-7145-4dfc-aa37-4599be0472d5.png)
 ![image](https://user-images.githubusercontent.com/104793540/219449935-75353d58-335d-46b4-932e-ead5c6708d2a.png)
 
+IAM DynamoDB:
+- Policies (choose or create policy) > use one of the tables to get ARN format region:accountid
+- role (under chat-lambda-data) > permissions > attach policy > select dynamodb policy just created
 
+![image](https://user-images.githubusercontent.com/104793540/219870498-f2fbdb16-a9c8-47ab-9ee6-c05160f99a9e.png)
+![image](https://user-images.githubusercontent.com/104793540/219870587-b50bb146-9451-4dfa-9c4d-cd6600b04b6b.png)
 
 
 ### Static chat app with S3
@@ -216,6 +221,9 @@ Creating DynamoDB tables:
 - Table 2 messages (conversation, timestamp, sender & actual message) 
 
 ![image](https://user-images.githubusercontent.com/104793540/219869247-45b2b937-a783-4dff-b12a-a658c27ea974.png)
+![image](https://user-images.githubusercontent.com/104793540/219869400-0ec6d67c-e826-45f0-87a0-21d1c025d096.png)
+![image](https://user-images.githubusercontent.com/104793540/219869709-ac267926-2c35-422a-8829-a007149a0423.png)
+
 
 ### Cognito for chat app identification
 
