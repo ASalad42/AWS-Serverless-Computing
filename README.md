@@ -109,9 +109,9 @@ IAM DynamoDB:
 
 IAM Cognito:
 - Policies (choose or create policy) > get pool arn for policy from cognito dashboard 
-- role (under chat-lambda-data) > permissions > attach policy > select cognito policy just created
+- new role > since accessing user information dont use same role as rest of project > choose policy created + basic execution
 
-![image](https://user-images.githubusercontent.com/104793540/220395746-18c5fbce-d844-4e14-a30f-1a3e84837fb3.png)
+![image](https://user-images.githubusercontent.com/104793540/220397268-697a2342-be9f-4d20-85cc-ff3ace44dc1d.png)
 
 
 ### Static chat app with S3
@@ -352,6 +352,12 @@ user pools:
 ![image](https://user-images.githubusercontent.com/104793540/220390756-dbc5e2b2-e1d4-43c7-86ed-44f322d3e429.png)
 
 - ensure lambda has access to cognito via IAM
+- create lambda function for getting users (use existing role)
+- wire up api gateway > create user model > create users resource and GET method > choose right lambda function > edit method response
+- deploy users api
+
+![image](https://user-images.githubusercontent.com/104793540/220399832-1a679523-b683-466d-a5b6-acc8540ce51c.png)
+
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
 
