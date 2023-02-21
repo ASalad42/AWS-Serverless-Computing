@@ -358,6 +358,18 @@ user pools:
 
 ![image](https://user-images.githubusercontent.com/104793540/220399832-1a679523-b683-466d-a5b6-acc8540ce51c.png)
 
+- add people.html page to s3
+- add users on cognito > create user
+
+![image](https://user-images.githubusercontent.com/104793540/220432373-d204f527-c7ed-4e0d-8cce-3a4646ce569a.png)
+
+##### Debugging serverless apps:
+- dicipline 
+- start from the front or backend. starting from back:
+  - assume cognito works > otherwise non of this would work 
+  - next layer is lambda that calls cognito > 
+  - next layer after that is api gateway
+
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
 
