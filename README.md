@@ -255,6 +255,24 @@ Write new messages to DynamoDB:
 
 ![image](https://user-images.githubusercontent.com/104793540/219885216-abe949ee-8974-4f61-a445-5b4b571975a2.png)
 
+### Break up monolith (lambda + api gateway)
+- having only one lambda function can create problems (leave **proxy mode** behind)
+
+Api Gateway:
+
+- each resource-method combination can be its own function with its own lifecyle 
+- each function can have simple, tailored input
+- ensuring API compataibility can occur without code 
+- Resource and methods > api models > request and response flows 
+
+
+http basics:
+- key peices of request are: method (GET), path, host 
+- key peices of response: status code 
+
+Mehtods:
+
+- Read: GET(most common http method of all i.e when i clink link or go on url a GET call is started) and HEAD (sibling of get but only returns headers & status code)
 
 ### Cognito for chat app identification
 
