@@ -367,8 +367,18 @@ user pools:
 - dicipline 
 - start from the front or backend. starting from back:
   - assume cognito works > otherwise non of this would work 
-  - next layer is lambda that calls cognito > 
-  - next layer after that is api gateway
+  - next layer is lambda that calls cognito > test lambda function (Chat-Users-GET) > success and return of users just made in outputs
+  - next layer after that is api gateway > /users GET > test > success and return of users just made in outputs
+  - check prod stage > invoke /users GET > also works 
+  - finally check javascript using developer tool > go to api > stages > prod > sdk generation > javascript sdk > upload to s3 in js folder
+
+![image](https://user-images.githubusercontent.com/104793540/220433453-8ee67bb7-40e5-457e-8658-f852f7c780e4.png)
+![image](https://user-images.githubusercontent.com/104793540/220433775-e7d8f581-dcf2-4edb-a86a-f35e022ae177.png)
+![image](https://user-images.githubusercontent.com/104793540/220434137-4d87eb26-db7a-41b9-934a-f08e04175c65.png)
+![image](https://user-images.githubusercontent.com/104793540/220435376-7d120a03-c9a2-4068-ad7b-3f5c48c9ba2b.png)
+
+
+
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
