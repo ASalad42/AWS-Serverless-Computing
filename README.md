@@ -349,6 +349,8 @@ user pools:
   - mfa and verifications - MFA phone and email verification 
   - advanced - Intelligent security features (outside free teir)
 
+##### List users in api & on site
+
 ![image](https://user-images.githubusercontent.com/104793540/220390756-dbc5e2b2-e1d4-43c7-86ed-44f322d3e429.png)
 
 - ensure lambda has access to cognito via IAM
@@ -378,7 +380,17 @@ user pools:
 ![image](https://user-images.githubusercontent.com/104793540/220435376-7d120a03-c9a2-4068-ad7b-3f5c48c9ba2b.png)
 
 
+##### create new conversation 
+- Lambda function - Chat-Conversation-POST
+- upload layer zip file and add layer to function 
+- add conversationid & newconversation models to api gateway
+- add post method to conversation 
+- method request (newconversation model for the request) and method response (conversationid i get back)
 
+##### create signup page
+
+
+##### add cognito authorizer to api gateway 
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
