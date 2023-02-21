@@ -107,6 +107,12 @@ IAM DynamoDB:
 ![image](https://user-images.githubusercontent.com/104793540/219870498-f2fbdb16-a9c8-47ab-9ee6-c05160f99a9e.png)
 ![image](https://user-images.githubusercontent.com/104793540/219870587-b50bb146-9451-4dfa-9c4d-cd6600b04b6b.png)
 
+IAM Cognito:
+- Policies (choose or create policy) > get pool arn for policy from cognito dashboard 
+- role (under chat-lambda-data) > permissions > attach policy > select cognito policy just created
+
+![image](https://user-images.githubusercontent.com/104793540/220395746-18c5fbce-d844-4e14-a30f-1a3e84837fb3.png)
+
 
 ### Static chat app with S3
 - upload site folder to s3 (ACL enabled as i want app public)
@@ -328,6 +334,8 @@ Stages:
 
 ### Cognito for chat app identification
 
+Amazon Cognito > Secure identity and access management for apps. Cognito user pools let you add registration and sign-in to your apps. With Amazon Cognito identity pools, you can provide AWS credentials for access to your cloud resources.
+
 services:
 - user pools - Your own usernames, passwords, attributes, etc.
 - federated - Use SSO (Google, Facebook, Amazon, etc.)
@@ -339,9 +347,11 @@ user pools:
 - security:
   - policies - Password length, special characters, etc.
   - mfa and verifications - MFA phone and email verification 
-  - advanced - Intelligent security features
+  - advanced - Intelligent security features (outside free teir)
 
+![image](https://user-images.githubusercontent.com/104793540/220390756-dbc5e2b2-e1d4-43c7-86ed-44f322d3e429.png)
 
+- ensure lambda has access to cognito via IAM
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
 
