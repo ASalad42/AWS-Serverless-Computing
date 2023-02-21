@@ -386,8 +386,18 @@ user pools:
 - add conversationid & newconversation models to api gateway
 - add post method to conversation 
 - method request (newconversation model for the request) and method response (conversationid i get back)
+- integration request > mapping templates 
+- enable cors on /conversations before redeploying 
+- Deploy API > generate new js sdk > upload to s3
 
 ##### create signup page
+
+- `npm install --save amazon-cognito-identity-js`
+- ` cd node_modules`      `cd amazon-cognito-identity-js`       `cd dist`
+- check for amazon-cognito-identity.min.js
+- upload to s3 in js folder
+
+![image](https://user-images.githubusercontent.com/104793540/220443888-f53adfd0-c360-498f-bc78-ed335fc0908d.png)
 
 
 ##### add cognito authorizer to api gateway 
