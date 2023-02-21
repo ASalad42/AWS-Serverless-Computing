@@ -298,6 +298,27 @@ request flow:
 
 ![image](https://user-images.githubusercontent.com/104793540/220337612-a411e86e-5716-4b2a-9761-1d2280adc3b6.png)
 
+#### Deploy API
+
+Lambda Functions:
+- Chat-Conversations-GET > added to integration request
+- Chat-Messages-GET > added to integration request
+- Chat-Messages-POST > added to integration request
+
+
+![image](https://user-images.githubusercontent.com/104793540/220355379-977bb8fe-0489-4e38-852b-f19007d58efe.png)
+![image](https://user-images.githubusercontent.com/104793540/220355552-412893bc-eb29-4cd8-b749-4ee44a8d0f76.png)
+![image](https://user-images.githubusercontent.com/104793540/220355684-7549672e-ad00-400b-ba32-731057c179ed.png)
+
+Stages:
+- prod > SDK generation > Javascript > unzip & upload to s3
+- update s3 files for site.js, chats.html & chat.html
+- prod > export > swagger yaml > https://editor.swagger.io/
+
+![image](https://user-images.githubusercontent.com/104793540/220359770-2671951c-16d7-4a47-be60-cc32b617f4fa.png)
+![image](https://user-images.githubusercontent.com/104793540/220360229-fc34cc0d-6604-4b4a-8ad1-54ae9d222860.png)
+
+
 ### Cognito for chat app identification
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
