@@ -268,11 +268,35 @@ Api Gateway:
 
 http basics:
 - key peices of request are: method (GET), path, host 
-- key peices of response: status code 
+- key peices of response: status code, body
 
 Mehtods:
 
-- Read: GET(most common http method of all i.e when i clink link or go on url a GET call is started) and HEAD (sibling of get but only returns headers & status code)
+- **Read:** GET (most common http method of all i.e when i clink link or go on url a GET call is started) and HEAD (sibling of get but only returns headers & status code)
+- **Write:** actually change data on the server > POST (create new resource), PUT (create or replace particular resource), PATCH (updating resource by providing a diff)
+- **Other:** DELETE, OPTIONS 
+
+
+![image](https://user-images.githubusercontent.com/104793540/220335884-21d6d64d-64b1-46f0-bcf0-f0b25337257d.png)
+
+status codes:
+- 2xx success
+- 3xx redirect
+- 4xx client error 
+- 5xx server error i.e server issues 
+
+Models:
+
+- request data > body (POST,PUT, PATCH)
+- reponse data > body  
+- json schema (null, boolean, array, object, number, string) 
+
+![image](https://user-images.githubusercontent.com/104793540/220337132-50173534-faeb-470b-a505-3f7c3d1f6913.png)
+
+
+request flow:
+
+![image](https://user-images.githubusercontent.com/104793540/220337612-a411e86e-5716-4b2a-9761-1d2280adc3b6.png)
 
 ### Cognito for chat app identification
 
