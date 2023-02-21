@@ -337,7 +337,11 @@ user pools:
 - users and groups - List and manage users and/or groups and see details
 - attributes - Define what a user looks like
 - security:
--- policies
+  - policies - Password length, special characters, etc.
+  - mfa and verifications - MFA phone and email verification 
+  - advanced - Intelligent security features
+
+
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
 
