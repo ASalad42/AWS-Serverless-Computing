@@ -429,8 +429,8 @@ user pools:
   - chat messages POST > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
   - users GET > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
 
-
-
+- Deploy API
+- link signin & authorization
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
