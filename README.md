@@ -409,6 +409,7 @@ user pools:
 ![image](https://user-images.githubusercontent.com/104793540/220615479-6d2f1a47-cf1e-4fba-ad95-2517d640c583.png)
 
 ##### login & logout
+![image](https://user-images.githubusercontent.com/104793540/220616542-210c6ca8-c8b3-4576-98f1-6bea5e4c1c4c.png)
 
 ##### add cognito authorizer to api gateway 
 
