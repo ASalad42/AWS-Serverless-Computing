@@ -412,6 +412,9 @@ user pools:
 ![image](https://user-images.githubusercontent.com/104793540/220616542-210c6ca8-c8b3-4576-98f1-6bea5e4c1c4c.png)
 
 ##### add cognito authorizer to api gateway 
+- Authorizers > create new authorizer > token source = Authorization as already define in CORS integration 
+
+![image](https://user-images.githubusercontent.com/104793540/220617524-46d15ef1-c970-417b-92b5-204454ae6c2e.png)
 
 
 
