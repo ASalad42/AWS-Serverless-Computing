@@ -432,11 +432,12 @@ user pools:
 - Deploy API
 - link signin & authorization
 
-### Optimisation & Production of chat app (incl. Cloudfront CDN) 
-
-
 
 ### Extras
+
+- https://andersonguelphjs.github.io/OReilly_JavaScript_The_Good_Parts_May_2008.pdf
+
+
 #### AWS Serverless + Express Apps
 
 - https://aws.amazon.com/blogs/compute/going-serverless-migrating-an-express-application-to-amazon-api-gateway-and-aws-lambda/
