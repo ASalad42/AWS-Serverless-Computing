@@ -19,6 +19,8 @@ Useful:
 
 - SPA single page application 
 - CORS Cross Origin Resource Sharing 
+- F12 developer tool on chrome
+- shift refresh
 
 ### Core serverless services
 
@@ -415,6 +417,18 @@ user pools:
 - Authorizers > create new authorizer > token source = Authorization as already define in CORS integration 
 
 ![image](https://user-images.githubusercontent.com/104793540/220617524-46d15ef1-c970-417b-92b5-204454ae6c2e.png)
+
+- get token from console developer tool
+
+![image](https://user-images.githubusercontent.com/104793540/220620443-e4d43513-c070-42f8-8b20-59fa47814499.png)
+
+- after setting up authorizer update mapping templates 
+  - conversations GET > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
+  - conversations POST > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
+  - chat messages GET > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
+  - chat messages POST > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
+  - users GET > method request > authorization > cognito (refresh page if needed) > integration request > mapping template
+
 
 
 
