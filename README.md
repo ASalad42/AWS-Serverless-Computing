@@ -398,9 +398,21 @@ user pools:
 - upload to s3 in js folder
 
 ![image](https://user-images.githubusercontent.com/104793540/220443888-f53adfd0-c360-498f-bc78-ed335fc0908d.png)
+![image](https://user-images.githubusercontent.com/104793540/220614087-b37b9945-f461-4ae4-b8a1-a218c3800722.png)
+![image](https://user-images.githubusercontent.com/104793540/220614156-d2e5809e-1095-4099-bd5b-f90bdb344d81.png)
 
+##### create verification page
+- upload files to s3
+
+![image](https://user-images.githubusercontent.com/104793540/220615292-6b1676da-8639-4206-9e35-988d5dadc8d4.png)
+
+![image](https://user-images.githubusercontent.com/104793540/220615479-6d2f1a47-cf1e-4fba-ad95-2517d640c583.png)
+
+##### login & logout
 
 ##### add cognito authorizer to api gateway 
+
+
 
 ### Optimisation & Production of chat app (incl. Cloudfront CDN) 
 
