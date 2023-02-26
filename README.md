@@ -433,6 +433,19 @@ user pools:
 - link signin & authorization
 
 #### Cloudfront CDN
+Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds.
+
+Origin - where the content comes from:
+- S3, Web Server, API
+
+Behaviour - how to serve and cache a set of URIs
+
+steps:
+- create a cloudfront distribution 
+- default root object: index.html
+- when deployed status > click on id > domain name into browser > success 
+- after file cached in s3, only way to delete is by invalidating as TTL (time to live) is still active. (under invalidation tab)
+- create invalisation > /test.txt  > invalidate
 
 
 ### Extras
